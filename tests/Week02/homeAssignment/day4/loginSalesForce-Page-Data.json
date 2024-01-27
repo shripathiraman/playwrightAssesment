@@ -1,0 +1,37 @@
+{
+  "url": "https://login.salesforce.com",
+  "homepageUrl": "https://d700000008bpjeae-dev-ed.my.salesforce.com/home/home.jsp",
+  "userName": "shripathiram@gmail.com",
+  "password": "Sailux@2024PW",
+  "lblUserName": "Username",
+  "lblPassword": "Password",
+  "loginButton": "#Login",
+  "homepage": {
+    "allTabID": "#AllTab_Tab",
+    "title": "Salesforce - Developer Edition"
+  },
+  "allTabDetails": {
+    "allPageUrl": "https://d700000008bpjeae-dev-ed.my.salesforce.com/home/showAllTabs.jsp",
+    "title": "All Tabs ~ Salesforce - Developer Edition",
+    "appLauncher": "[alt='App Launcher']"
+  },
+  "appLauncherDetail": {
+    "url": "https://d700000008bpjeae-dev-ed.my.salesforce.com/app/mgmt/applauncher/appLauncher.apexp",
+    "txtTitle": "App Launcher",
+    "salesId": "#Sales"
+  },
+  "sales":{
+    "leadsTab":"#Lead_Tab",
+    "newLeadButton":"[name='new']"
+  },
+  "createLeadPage":{
+    "salutation":"#name_salutationlea2",
+    "lastName":"#name_lastlea2",
+    "lblCompany":"Company",
+    "leadStatusSelectBox":"Lead Status",
+    "clickSave":"#topButtonRow [name='save']"
+  },
+  "checkLeadData":{
+    "table":".detailList"
+  }
+}
