@@ -1,0 +1,24 @@
+{
+    "url":"http://leaftaps.com/opentaps/control/logout",
+    "lblUserName":"Username",
+    "lblPassword":"Password",
+    "btnLogin":".decorativeSubmit",
+    "crmsfa":"text=CRM/SFA",
+    "tabLead":"text='Leads'",
+    "shortcut":"Create Lead",
+    "createLead":{
+        "companyName":"#createLeadForm_companyName",
+        "firstName":"#createLeadForm_firstName",
+        "lastName":"#createLeadForm_lastName",
+        "btncreateLead":".smallSubmit"
+    },
+    "editLead":{
+        "btnEdit":".subMenuButton",
+        "btnEditValue":"Edit",
+        "companyName":"#updateLeadForm_companyName",
+        "btnUpdate":"input[value='Update']"
+    },
+    "viewLead":{
+        "companyName":"#viewLead_companyName_sp"
+    }
+}

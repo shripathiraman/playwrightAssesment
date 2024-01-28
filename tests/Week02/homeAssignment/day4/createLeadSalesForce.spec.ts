@@ -1,8 +1,7 @@
 import { chromium, expect, test } from '@playwright/test';
 import  createLeadData  from './createLeadData.json';
 import loginPageData from './loginSalesForce-Page-Data.json';
-import { clear } from 'console';
-import { create } from 'domain';
+
 
 test('TC001-Create Test Lead', async ({ page }) => { 
     
